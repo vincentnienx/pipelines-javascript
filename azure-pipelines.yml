@@ -37,4 +37,3 @@ steps:
     includeRootFolder: false
 
 - task: PublishBuildArtifacts@1
-- task: PublishBuildArtifacts@r1
