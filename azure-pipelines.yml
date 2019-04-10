@@ -36,7 +36,5 @@ steps:
     rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
     includeRootFolder: false
 
-- task: PublishBuildArtifacts@2
-  inputs:
-    pathtoPublish: '$(System.DefaultWorkingDirectory)'
-    artifactName: drops
+- task: PublishBuildArtifacts@1
+
