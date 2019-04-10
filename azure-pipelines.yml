@@ -38,5 +38,5 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    pathtoPublish: ‘$(System.DefaultWorkingDirectory)’
+    pathtoPublish: '$(System.DefaultWorkingDirectory)'
     artifactName: drops
